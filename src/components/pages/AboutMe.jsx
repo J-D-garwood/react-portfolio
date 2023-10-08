@@ -1,5 +1,5 @@
 export default function AboutMe() {
     return (
-        null //insert ABOUT ME HTML
+        <h1>About Me Page</h1>
     )
 }

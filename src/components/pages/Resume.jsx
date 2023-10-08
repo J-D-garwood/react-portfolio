@@ -1,5 +1,5 @@
 export default function Resume() {
     return (
-        null //insert RESUME HTML
+        <h1>Resume Page</h1>
     )
 }

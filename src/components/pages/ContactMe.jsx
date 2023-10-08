@@ -1,5 +1,5 @@
 export default function ContactMe() {
     return (
-        null //insert CONTACT ME HTML
+        <h1>Contact Me Page</h1>
     )
 }
