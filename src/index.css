@@ -3,4 +3,7 @@
     margin: 0px;
 }
 #project_link {
+    border: 1px solid;
+    height: 250px;
+    margin: 0px;
 }
