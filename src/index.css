@@ -7,3 +7,28 @@
     height: 250px;
     margin: 0px;
 }
+
+#avatar {
+    text-align: center;
+}
+
+#bio {
+    text-align: center;
+}
+
+#foot-col {
+}
+
+#foot-link {
+    opacity: 0.8;
+}
+#foot-link:hover {
+    opacity: 0.8;
+}
+
+
+#foot-link-svg:hover {
+    opacity: 0.8;
+    height: 20;
+    width: 20;
+}

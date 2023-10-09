@@ -16,7 +16,7 @@ function NavTabs({ thisPage, nextPageHandling }) {
                 onClick={() => nextPageHandling('Portfolio')}
                 className={thisPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
             >
-            Porfolio
+            Portfolio
             </a>
         </li>
         <li className="nav-item">

@@ -1,7 +1,9 @@
 export default function Portfolio() {
     return (
         <div className="container-fluid">
-            <h1></h1>
+            <div className="row">
+                <h1>Portfolio</h1>
+            </div>
             <div className="row">
                 <div id="project_section" className="col">
                         <a href="https://enigmatic-badlands-67333-655bf991c860.herokuapp.com/">
