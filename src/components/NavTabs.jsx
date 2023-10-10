@@ -1,5 +1,7 @@
 function NavTabs({ thisPage, nextPageHandling }) {
     return (
+    <div>
+    <h1>jdgarwood</h1>
     <u1 className="nav nav-tabs">
         <li className="nav-item">
             <a
@@ -38,6 +40,7 @@ function NavTabs({ thisPage, nextPageHandling }) {
             </a>
         </li>
     </u1>
+    </div>
     );
 }
 
