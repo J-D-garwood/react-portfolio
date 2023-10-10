@@ -1,7 +1,13 @@
+* {
+    background-color: rgb(128, 128, 245);
+}
 input {
+    background-color: white;
     padding: 0
 }
 #project_section {
+    background-color: white;
+    color: blue;
     border: 1px solid;
     margin: 0px;
 }
@@ -12,6 +18,7 @@ input {
 }
 
 #avatar {
+    background-color: white;
     text-align: center;
 }
 
@@ -23,7 +30,7 @@ input {
 }
 
 #foot-link {
-    opacity: 0.8;
+    opacity: 0.8
 }
 #foot-link:hover {
     opacity: 0.8;
