@@ -1,5 +1,7 @@
 function Footer() {
     return (
+        <div>
+        <div id="filler" className="row"></div>
         <div id="pageFeet" className="row justify-content-center">
             <div className="col-6">
                 <div className="row justify-content-center text-center ">
@@ -20,6 +22,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     );
 }

@@ -1,9 +1,9 @@
 * {
-    background-color: rgb(128, 128, 245);
+    background-color: rgb(189, 189, 245);
 }
 input {
     background-color: white;
-    padding: 0
+    width: 100%;
 }
 #project_section {
     background-color: white;
@@ -41,4 +41,21 @@ input {
     opacity: 0.8;
     height: 20;
     width: 20;
+}
+
+#input-row {
+    padding-bottom: 10px;
+}
+
+#filler {
+    height: 10px;
+}
+
+#sub_btn {
+    width: 25%;
+}
+
+#sub_btn:hover {
+    color: white;
+    border: 2px solid white;
 }

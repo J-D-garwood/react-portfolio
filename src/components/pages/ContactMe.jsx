@@ -44,8 +44,11 @@ export default function ContactMe() {
     return (
         //<h1>Contact Me</h1>
         <div className="container text-center">
+            <div className='row'>
+                <h3>Get in touch..</h3>
+            </div>
             <form className="form" onSubmit={handleFormSubmit}>
-                <div className='row'>
+                <div id="input-row" className='row justify-content-center'>
                     <div className='col-12 col-md-6 col-lg-4'>
                         <input
                             value={Name}
@@ -57,7 +60,7 @@ export default function ContactMe() {
                         />
                     </div>
                 </div> 
-                <div className='row'>
+                <div id="input-row" className='row justify-content-center'>
                     <div className='col-12 col-md-6 col-lg-4'>
                         <input
                             value={email}
@@ -69,7 +72,7 @@ export default function ContactMe() {
                         />
                     </div>
                 </div>
-                <div className='row'>
+                <div id="input-row" className='row justify-content-center'>
                     <div className='col-12 col-md-6 col-lg-4'>
                         <input
                             value={Message}
@@ -81,8 +84,10 @@ export default function ContactMe() {
                         />
                     </div>
                 </div>             
-                <div className='row'>
-                    <button type="submit">Submit</button>
+                <div className='row justify-content-center'>
+                    <div className='col-12 col-md-6 col-lg-4'>
+                        <button id="sub_btn" type="submit">Send</button>
+                    </div>
                 </div>
             </form>
             {errorMessage && (
