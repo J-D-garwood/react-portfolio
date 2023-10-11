@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import NavTabs from './NavTabs';
+import Header from './Header';
 import AboutMe from './pages/AboutMe';
 import ContactMe from './pages/ContactMe';
 import Portfolio from './pages/Portfolio'; 
@@ -29,7 +29,7 @@ export default function PagesContainer() {
     return (
         <div>
             {}
-            <NavTabs thisPage={thisPage} nextPageHandling={nextPageHandling} />
+            <Header thisPage={thisPage} nextPageHandling={nextPageHandling} />
             {}
             <main className="mx-3">{renderPage()}</main>
         </div>
