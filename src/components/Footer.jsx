@@ -1,4 +1,4 @@
-import GHIcon from "\\..\\..\\assets\\github-mark.svg"
+import GHIcon from "/../../assets/github-mark.svg"
 import LIIcon from "\\..\\assets\\LinkedIn_icon_circle.svg"
 import OFIcon from "\\..\\assets\\OFIcon.svg"
 /*footer page*/
