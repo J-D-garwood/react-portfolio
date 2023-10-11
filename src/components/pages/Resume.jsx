@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+/*resume*/
 
 export default function Resume() {
     return (

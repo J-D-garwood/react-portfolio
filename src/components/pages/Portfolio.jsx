@@ -5,6 +5,8 @@ import marvel from '..\\..\\..\\assets\\marvel.jpg'
 import weather from "..\\..\\..\\assets\\Deployed.png"
 import note from "..\\..\\..\\assets\\Deployed_1.png"
 import quiz from "..\\..\\..\\assets\\quiz.png"
+/*portfolio me page*/
+
 export default function Portfolio() {
     const myProjects = [
         {

@@ -1,8 +1,10 @@
+import me from "..\\..\\..\\assets\\avatar-svgrepo-com.svg"
+/*about me page*/
 export default function AboutMe() {
     return (
         <div>
         <div id="avatar" className="row">
-            <img src="..\..\..\assets\avatar-svgrepo-com.svg" width="250" height="250"></img>
+            <img src={me} width="250" height="250"></img>
         </div>
         <div id="bio" className="row justify-content-center">
         <div className="col-md-8 col-sm-12">

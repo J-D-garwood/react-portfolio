@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+/*contact me page*/
 
 export default function ContactMe() {
 
@@ -10,12 +11,10 @@ export default function ContactMe() {
     const [errorMessage, setErrorMessage] = useState('');
 
     const handleInputChange = (e) => {
-        // Getting the value and name of the input which triggered the change
         const { target } = e;
         const inputType = target.name;
         const inputValue = target.value;
     
-        // Based on the input type, we set the state of either email, username, and password
         if (inputType === 'email') {
           setEmail(inputValue);
         } else if (inputType === 'name') {
@@ -36,7 +35,6 @@ export default function ContactMe() {
             setErrorMessage('Please fill in all fields');
         }
     
-        // If everything goes according to plan, we want to clear out the input after a successful registration.
         setEmail('');
         setName('');
         setMessage('');

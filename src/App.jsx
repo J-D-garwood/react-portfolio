@@ -1,6 +1,6 @@
 import PagesContainer from "./components/PagesContainer";
 import Footer from "./components/Footer";
-
+/*app*/
 const App = () => (
     <div>
         <PagesContainer />

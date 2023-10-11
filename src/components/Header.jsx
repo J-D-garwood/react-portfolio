@@ -1,3 +1,4 @@
+/*header sect*/
 function Header({ thisPage, nextPageHandling }) {
     return (
     <div>
