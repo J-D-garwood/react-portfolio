@@ -1,6 +1,6 @@
-import GHIcon from "..\\..\\assets\\github-mark.svg"
-import LIIcon from "..\\..\\assets\\LinkedIn_icon_circle.svg"
-import OFIcon from "..\\..\\assets\\OFIcon.svg"
+import GHIcon from "..\\..\\public\\github-mark.svg"
+import LIIcon from "..\\..\\public\\LinkedIn_icon_circle.svg"
+import OFIcon from "..\\..\\public\\OFIcon.svg"
 /*footer page*/
 function Footer() {
     return (

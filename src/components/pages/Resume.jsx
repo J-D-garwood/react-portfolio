@@ -16,7 +16,7 @@ export default function Resume() {
                     <li>Mobile-First Design</li>
                     <li>Effective Communication</li>
                 </ul>
-                <a href="..\..\..\assets\resume.pdf">Download my resume</a>
+                <a href="..\..\..\public\resume.pdf">Download my resume</a>
             </div>
         </div>
     );

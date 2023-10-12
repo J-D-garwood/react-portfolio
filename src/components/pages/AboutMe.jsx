@@ -1,4 +1,4 @@
-import me from "..\\..\\..\\assets\\avatar-svgrepo-com.svg"
+import me from "..\\..\\..\\public\\avatar-svgrepo-com.svg"
 /*about me page*/
 export default function AboutMe() {
     return (
