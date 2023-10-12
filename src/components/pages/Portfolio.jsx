@@ -1,10 +1,10 @@
 import Project from './Project'
-import techblog from "..\\..\\..\\public\\image_of_deployed.png";
-import recipebox from "..\\..\\..\\public\\logo.png"
-import marvel from '..\\..\\..\\public\\marvel.jpg'
-import weather from "..\\..\\..\\public\\Deployed.png"
-import note from "..\\..\\..\\public\\Deployed_1.png"
-import quiz from "..\\..\\..\\public\\quiz.png"
+import techblog from "../../../public/image_of_deployed.png";
+import recipebox from "../../../public/logo.png"
+import marvel from '../../../public/marvel.jpg'
+import weather from "../../../public/Deployed.png"
+import note from "../../../public/Deployed_1.png"
+import quiz from "../../../public/quiz.png"
 /*portfolio me page*/
 
 export default function Portfolio() {
