@@ -5,6 +5,8 @@ import marvel from '../../../public/marvel.jpg'
 import weather from "../../../public/Deployed.png"
 import note from "../../../public/Deployed_1.png"
 import quiz from "../../../public/quiz.png"
+import vinyl from "../../../public/vinyl-homepage-screenshot.png"
+
 /*portfolio me page*/
 
 export default function Portfolio() {
@@ -44,6 +46,12 @@ export default function Portfolio() {
             link: "https://j-d-garwood.github.io/04-Web-Dev_Quiz/",
             im_path: quiz,
             github: "https://github.com/J-D-garwood/04-Web-Dev_Quiz/"
+        },
+        {
+            title: "VinylAddict",
+            link: "https://vinyl-addict-online-45b6491a309c.herokuapp.com/",
+            im_path: vinyl,
+            github: "https://github.com/J-D-garwood/Online-Record-Store"
         }
     ]
     return (
@@ -55,6 +63,7 @@ export default function Portfolio() {
                 <Project title={myProjects[3].title} link={myProjects[3].link} im_path={myProjects[3].im_path} github={myProjects[3].github}/>
                 <Project title={myProjects[4].title} link={myProjects[4].link} im_path={myProjects[4].im_path} github={myProjects[4].github}/>
                 <Project title={myProjects[5].title} link={myProjects[5].link} im_path={myProjects[5].im_path} github={myProjects[5].github}/>
+                <Project title={myProjects[6].title} link={myProjects[6].link} im_path={myProjects[6].im_path} github={myProjects[6].github}/>
             </div>
         </div>
     )
